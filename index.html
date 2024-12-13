@@ -2,97 +2,98 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        nav {
-            background: #444;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        .portfolio-item {
-            margin-bottom: 20px;
-            padding: 10px;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Grid Layout</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/grid-style.css">
 </head>
 <body>
-    <header>
-        <h1>My Portfolio</h1>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm [Your Name], a [Your Profession/Skills]. I love creating beautiful and functional designs.</p>
-    </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="portfolio-item">
-            <h3>Project 1</h3>
-            <p>Description of Project 1</p>
+    <div class="grid-container">
+        <div class="item1">
+            <h1>
+                Olivia Krewer
+            </h1>
         </div>
-        <div class="portfolio-item">
-            <h3>Project 2</h3>
-            <p>Description of Project 2</p>
+        <div class="item2">
+            <a href="/about_me.html">
+                <button type="button"> 
+                    About Me
+                </button>
+            </a>
+            <a href="/index.html">
+                <button type="button"> 
+                    Home
+                </button>
+            </a>
+            <a href="/resume.pdf">
+                <button type="button"> 
+                    See Resume
+                </button>
+            </a>
         </div>
-        <div class="portfolio-item">
-            <h3>Project 3</h3>
-            <p>Description of Project 3</p>
+        <div class="item3">
+            <h3>
+                Projects 
+            </h3>
+            <ul>
+                <li>
+                    <a class ="plink" href ="/Lost and Found/index.html">
+                        Lost and Found
+                    </a>
+                </li>
+                <li>
+                    <a class ="plink" href ="/exquisite corpse/index.html">
+                        Exquisite Corpse
+                    </a>
+                </li>
+                <li>
+                    <a class ="plink" href ="/alternative clock/index.html">
+                        Alternative Clock
+                    
+                    </a>
+                </li>
+                <li>
+                    <a class ="plink" href ="/chair illusion/index.html">
+                        Chair Illusion
+                    
+                    </a>
+                </li>
+                <li>
+                    <a class ="plink" href ="/face generator/index.html">
+                        Face Generator
+                    
+                    </a>
+                </li>
+                <li>
+                    <a class ="plink" href ="/morning routine chart/index.html">
+                        Morning Routine chart
+                    
+                    </a>
+                </li>
+                <li>
+                    <a class ="plink" href ="/McGorlick Park Game/index.html">
+                        McGorlick Park Game
+                    
+                    </a>
+                </li>
+              </ul>
+        </div>  
+        <div class="item4">
+            <p>
+                
+                Explore my submissions for CC Lab Fall 2024! Overall, I was interested in learning in learning my classmates and Aditi's creative and skillsets. As the class went on, I got more into my work. Hope you enjoy what you see! 
         </div>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>Phone: +123 456 7890</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
-    </footer>
+        <div class="item5">
+            <p>
+
+            </p>
+        </div>
+        <div class="item6">
+            <p>
+
+            </p>
+        </div>
+    </div>
 </body>
 </html>
